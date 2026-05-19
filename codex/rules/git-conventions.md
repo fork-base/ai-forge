@@ -14,7 +14,7 @@
  - scope -- Reach of the changes in the projects (e.g. backtester).
  - description -- What was done in this commit (<=50 characters long).
  - body -- Why was this change done. Never describe how. Written in imperative.
- - footer -- Lore footer. Contains Agent ID, issue id/link, and agent-model.
+ - footer -- Lore footer. Contains Agent ID, issue id/link, and agent-model. For example if the model is claude-sonnet-4-5 it would look like this:
 
 ```
 Co-authored-by: claude-code[bot] <claude@anthropic.com>
