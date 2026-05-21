@@ -8,7 +8,8 @@ Guidelines for managing task lists in markdown files to track progress on comple
 - **One sub-task at a time:** Do **NOT** start the next sub‑task until you ask the user for permission and they say “yes” or "y"
 - **Completion protocol:**  
   1. When you finish a **sub‑task**, immediately mark it as completed by changing `[ ]` to `[x]`.  
-  2. If **all** subtasks underneath a parent task are now `[x]`, also mark the **parent task** as completed.  
+  2. Create a git checkpoint to save your work.
+  3. If **all** subtasks underneath a parent task are now `[x]`, also mark the **parent task** as completed.  
 - Stop after each sub‑task and wait for the user’s go‑ahead.
 
 ## Task List Maintenance
@@ -28,6 +29,7 @@ When working with task lists, the AI must:
 1. Regularly update the task list file after finishing any significant work.
 2. Follow the completion protocol:
    - Mark each finished **sub‑task** `[x]`.
+   - Create a checkpoint.
    - Mark the **parent task** `[x]` once **all** its subtasks are `[x]`.
 3. Add newly discovered tasks.
 4. Keep “Relevant Files” accurate and up to date.
