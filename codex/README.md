@@ -1,6 +1,6 @@
 
 # Codex
-Codex Version: 0.1.3
+Codex Version: 0.1.4
 
 The Codex is the AI agent’s rulebook -- a canonical source of truth for:
 
