@@ -10,5 +10,5 @@
  - Next the function under test is executed.
  - Last actual return values of the funcion under test are compared to the expected values.
 - [TC7] Expected values are always immutable, and constructed before the function under test is run.
-- [TC8] Assertions need to test exact values (e.g. >0.0 is not sufficient).
+- [TC8] Assertions need to test exact values (e.g. >0.0, or !empty is not sufficient).
 - [TC9] Expected values are not computed inside the test function. They are computed outside the code and only their values are stored as expected constants. This is to avoid mistakes in calculation or running the risk of testing implementation details.
